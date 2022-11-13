@@ -1,0 +1,12 @@
+{
+  "name": "common-web-styles",
+  "version": "1.0.0",
+  "repository": "https://github.com/ayes-web/common-web-styles",
+  "scripts": {
+    "build": "sass common.scss dist/common.css"
+  },
+  "author": "ayes-web <ayes2022@protonmail.com>",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
