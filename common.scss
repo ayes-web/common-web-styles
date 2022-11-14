@@ -1,5 +1,6 @@
 $background-color: #0f0f0f;
 $text-color: white;
+$disabled-text-color: rgb(189, 189, 189);
 
 $interactive-background-color: rgb(31, 31, 31);
 $interactive-border-color: #333333;
@@ -44,6 +45,8 @@ select {
 
   &:disabled {
     cursor: not-allowed;
+    color: $disabled-text-color;
+    background-color: $interactive-background-color !important;
   }
 }
 

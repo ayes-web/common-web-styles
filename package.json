@@ -1,6 +1,6 @@
 {
   "name": "common-web-styles",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "https://github.com/ayes-web/common-web-styles",
   "scripts": {
     "build": "sass common.scss dist/common.css"
